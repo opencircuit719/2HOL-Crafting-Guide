@@ -8,8 +8,6 @@ A modern, community-enhanced crafting reference for [Two Hours One Life](https:/
 
 **https://demo.2holguide.workers.dev**
 
-*(Domain will be updated to `2hol.guide` shortly)*
-
 ## What is this?
 
 An interactive crafting guide for Two Hours One Life, rebuilt with modern web technologies to improve performance, search, and user experience.

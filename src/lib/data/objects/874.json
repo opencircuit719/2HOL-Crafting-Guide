@@ -1,0 +1,1 @@
+{"id":"874","name":"Tattered Backpack","transitionsToward":[],"transitionsAway":[],"transitionsTimed":[{"targetID":"874","decay":"30m"}],"version":"79","craftable":false,"clothing":"p","insulation":0,"numSlots":2,"slotSize":1,"size":2,"minPickupAge":3,"sounds":[286]}

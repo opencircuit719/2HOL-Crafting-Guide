@@ -1,0 +1,1 @@
+{"id":"14029","name":"Lotus","transitionsToward":[],"transitionsAway":[{"actorID":"568","targetID":"14029","newActorID":"14773","newTargetID":"14029","targetRemains":true,"hand":true}],"transitionsTimed":[],"version":"20304","craftable":true,"depth":0,"mapChance":0.004,"biomes":[{"id":"7","spawnChance":0.0039066315069831055}],"blocksWalking":true}

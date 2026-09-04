@@ -1,0 +1,1 @@
+{"id":"14492","name":"Cow Mammoth  - wild sterile","transitionsToward":[],"transitionsAway":[],"transitionsTimed":[{"targetID":"14492","newTargetID":"14492","targetRemains":true,"decay":"3s","move":1}],"version":"20308","craftable":false,"speedMult":1.25,"moveType":1,"moveDistance":3}

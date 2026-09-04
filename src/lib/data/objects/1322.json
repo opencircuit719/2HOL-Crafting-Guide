@@ -1,0 +1,1 @@
+{"id":"1322","name":"Broken Wheelbarrow","transitionsToward":[],"transitionsAway":[],"transitionsTimed":[{"targetID":"1322","decay":"20m"}],"version":"113","craftable":false,"numSlots":3,"slotSize":2,"minPickupAge":12,"speedMult":0.75,"sounds":[198,496]}

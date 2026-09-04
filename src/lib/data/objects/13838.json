@@ -1,0 +1,1 @@
+{"id":"13838","name":"(outdated) Coal Mine  - 3  - justBuilt","transitionsToward":[],"transitionsAway":[],"transitionsTimed":[{"targetID":"13838","newTargetID":"13819","decay":"1s"}],"version":"20304","craftable":false,"blocksWalking":true,"sounds":[78]}

@@ -1,0 +1,1 @@
+{"id":"1627","name":"Bloody Note -  &written","transitionsToward":[{"targetID":"1625","newActorID":"1627","newTargetID":"798","hand":true}],"transitionsAway":[],"transitionsTimed":[],"version":"132","craftable":false,"size":1,"minPickupAge":3,"sounds":[65],"techTree":[{"id":"1625","nodes":null}]}

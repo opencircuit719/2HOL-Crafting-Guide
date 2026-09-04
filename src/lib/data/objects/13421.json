@@ -1,0 +1,1 @@
+{"id":"13421","name":"Motorbike","transitionsToward":[{"targetID":"13422","newTargetID":"13421","decay":"5s"}],"transitionsAway":[{"targetID":"13421","newActorID":"13420","hand":true}],"transitionsTimed":[],"version":"20301","craftable":false,"speedMult":4,"techTree":[{"decay":"5s"},{"id":"13422","nodes":[{"id":"13420","nodes":[{"id":"13421","nodes":[]}]}]}]}

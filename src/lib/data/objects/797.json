@@ -1,0 +1,1 @@
+{"id":"797","name":"Stab Wound","transitionsToward":[],"transitionsAway":[{"actorID":"1378","targetID":"797","newActorID":"1379","newTargetID":"1380","hand":true}],"transitionsTimed":[{"targetID":"797","decay":"5m"}],"version":"75","craftable":false,"speedMult":0.75}

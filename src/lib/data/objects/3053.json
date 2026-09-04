@@ -1,0 +1,1 @@
+{"id":"3053","name":"Baby Bone Pile -  origGrave justDied","transitionsToward":[],"transitionsAway":[],"transitionsTimed":[{"targetID":"3053","newTargetID":"3051","decay":"1s"}],"version":"229","craftable":false,"numSlots":15,"slotSize":1,"sounds":[1381]}

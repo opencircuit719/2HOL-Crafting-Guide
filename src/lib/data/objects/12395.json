@@ -1,0 +1,1 @@
+{"id":"12395","name":"(outdated) Pink Jacket  - justremoved","transitionsToward":[],"transitionsAway":[],"transitionsTimed":[{"targetID":"12395","newTargetID":"12325","decay":"1s"}],"version":"20294","craftable":false,"clothing":"t","insulation":0.3605,"size":2,"minPickupAge":3,"sounds":[286]}

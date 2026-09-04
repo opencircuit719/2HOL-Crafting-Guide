@@ -1,0 +1,1 @@
+{"id":"6381","name":"Leprechaun","transitionsToward":[],"transitionsAway":[],"transitionsTimed":[{"targetID":"6381","newTargetID":"6381","targetRemains":true,"decay":"2s","move":3}],"version":"20271","craftable":false,"speedMult":2,"moveType":3,"moveDistance":3}

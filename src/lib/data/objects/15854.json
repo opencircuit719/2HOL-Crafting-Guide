@@ -1,0 +1,1 @@
+{"id":"15854","name":"(outdated) Lab Table with Coal Tar","transitionsToward":[],"transitionsAway":[{"actorID":"15847","targetID":"15854","newActorID":"15847","newTargetID":"15855","hand":true,"tool":true}],"transitionsTimed":[],"version":"20317","craftable":false,"blocksWalking":true,"sounds":[149]}

@@ -1,0 +1,1 @@
+{"id":"10684","name":"White Cat  - laying","transitionsToward":[{"targetID":"10721","targetUses":"last","newActorID":"10928","newTargetID":"10684","hand":true}],"transitionsAway":[{"targetID":"10684","newActorID":"10687","hand":true}],"transitionsTimed":[],"version":"20290","craftable":true,"depth":0,"mapChance":0.0025,"biomes":[{"id":"0","spawnChance":0.00015486588614260058}]}

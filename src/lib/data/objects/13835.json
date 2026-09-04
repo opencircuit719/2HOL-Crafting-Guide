@@ -1,0 +1,1 @@
+{"id":"13835","name":"(outdated) Limestone Mine  - 3  - justBuilt","transitionsToward":[],"transitionsAway":[],"transitionsTimed":[{"targetID":"13835","newTargetID":"13822","decay":"1s"}],"version":"20304","craftable":false,"blocksWalking":true,"sounds":[78]}

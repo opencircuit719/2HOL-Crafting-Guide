@@ -1,0 +1,1 @@
+{"id":"13929","name":"Steel Beam - justCasted","transitionsToward":[],"transitionsAway":[],"transitionsTimed":[{"targetID":"13929","newTargetID":"13801","decay":"1s"}],"version":"20304","craftable":false,"size":2,"minPickupAge":3,"sounds":[405]}

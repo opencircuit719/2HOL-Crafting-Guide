@@ -1,0 +1,1 @@
+{"id":"365","name":"Touched Edge","transitionsToward":[{"targetID":"366","newTargetID":"365","hand":true,"tool":true}],"transitionsAway":[],"transitionsTimed":[],"version":"29","craftable":false,"blocksWalking":true,"techTree":[{"id":"366","nodes":null}]}

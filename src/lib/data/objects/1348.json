@@ -1,0 +1,1 @@
+{"id":"1348","name":"Attacking Boar with Piglet -  domestic","transitionsToward":[],"transitionsAway":[{"actorID":"11934","targetID":"1348","newActorID":"11920","newTargetID":"1348","targetRemains":true,"hand":true}],"transitionsTimed":[{"targetID":"1348","newTargetID":"1341","decay":"1s"}],"version":"113","numUses":10,"craftable":false,"speedMult":0.5,"sounds":[1220]}

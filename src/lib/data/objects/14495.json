@@ -1,0 +1,1 @@
+{"id":"14495","name":"Orange Juice Bottle -  just poured","transitionsToward":[],"transitionsAway":[],"transitionsTimed":[{"targetID":"14495","newTargetID":"10265","decay":"1s"}],"version":"20308","numUses":4,"craftable":false,"minPickupAge":3,"sounds":[287]}

@@ -1,0 +1,1 @@
+{"id":"13444","name":"Brewery with Boiling Water  - closed","transitionsToward":[],"transitionsAway":[],"transitionsTimed":[{"targetID":"13444","newTargetID":"13445","decay":"10s"}],"version":"20302","craftable":false,"blocksWalking":true,"sounds":[890,102]}

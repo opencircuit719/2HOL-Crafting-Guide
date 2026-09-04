@@ -1,0 +1,1 @@
+{"id":"865","name":"Rag Shirt","transitionsToward":[{"targetID":"871","newTargetUses":"-1","newTargetID":"865","decay":"5h"}],"transitionsAway":[],"transitionsTimed":[{"targetID":"865","decay":"30m"}],"version":"79","craftable":false,"clothing":"t","insulation":0.13999999999999999,"size":2,"minPickupAge":3,"sounds":[286],"techTree":[{"decay":"5h"},{"id":"871","nodes":null}]}

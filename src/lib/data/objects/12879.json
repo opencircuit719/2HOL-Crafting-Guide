@@ -1,0 +1,1 @@
+{"id":"12879","name":"Copper Pipe  - TW  - SW  - justInstalled","transitionsToward":[],"transitionsAway":[],"transitionsTimed":[{"targetID":"12879","newTargetID":"12846","decay":"10s"}],"version":"20296","craftable":false,"sounds":[407]}

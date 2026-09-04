@@ -1,0 +1,1 @@
+{"id":"14045","name":"Blue Dyed Paper","transitionsToward":[],"transitionsAway":[],"transitionsTimed":[{"targetID":"14045","newTargetID":"3185","decay":"1s"}],"version":"20304","craftable":false,"size":1,"minPickupAge":3,"sounds":[65]}

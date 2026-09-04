@@ -1,0 +1,1 @@
+{"id":"14703","name":"Pineapple","transitionsToward":[{"targetID":"14702","newActorID":"14703","newTargetID":"14701","hand":true}],"transitionsAway":[],"transitionsTimed":[{"targetID":"14703","decay":"5m"}],"version":"20311","craftable":false,"size":2,"minPickupAge":3,"sounds":[147],"techTree":[{"id":"14702","nodes":null}]}

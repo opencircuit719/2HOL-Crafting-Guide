@@ -1,0 +1,1 @@
+{"id":"12010","name":"Donkey","transitionsToward":[],"transitionsAway":[],"transitionsTimed":[{"targetID":"12010","newTargetID":"12010","targetRemains":true,"decay":"5s","move":3}],"version":"20290","craftable":false,"speedMult":0.5,"moveType":3,"moveDistance":3}

@@ -1,0 +1,1 @@
+{"id":"752","name":"Murder Grave -  origGrave fromDeath","transitionsToward":[],"transitionsAway":[],"transitionsTimed":[{"targetID":"752","newTargetID":"87","decay":"5m"}],"version":"67","craftable":false,"numSlots":15,"slotSize":1,"sounds":[980]}

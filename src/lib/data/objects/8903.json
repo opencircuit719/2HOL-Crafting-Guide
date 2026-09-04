@@ -1,0 +1,1 @@
+{"id":"8903","name":"Rocky Hill","transitionsToward":[],"transitionsAway":[{"actorID":"8929","targetID":"8903","newTargetID":"10209","hand":true}],"transitionsTimed":[],"version":"20286","craftable":true,"depth":0,"mapChance":0.01,"biomes":[{"id":"0","spawnChance":0.0006194635445704023}],"blocksWalking":true}

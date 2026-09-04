@@ -1,0 +1,1 @@
+{"id":"10462","name":"Wild Garlic","transitionsToward":[],"transitionsAway":[{"targetID":"10462","newActorID":"10463","hand":true}],"transitionsTimed":[],"version":"20290","craftable":true,"depth":0,"mapChance":0.1,"biomes":[{"id":"0","spawnChance":0.006194635445704023}]}

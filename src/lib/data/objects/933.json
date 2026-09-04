@@ -1,0 +1,1 @@
+{"id":"933","name":"Fence -  just closed","transitionsToward":[],"transitionsAway":[],"transitionsTimed":[{"targetID":"933","newTargetID":"550","decay":"1s"}],"version":"20270","craftable":false,"blocksWalking":true,"sounds":[78]}

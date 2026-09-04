@@ -1,0 +1,1 @@
+{"id":"13837","name":"(outdated) Copper Mine  - 3  - justBuilt","transitionsToward":[],"transitionsAway":[],"transitionsTimed":[{"targetID":"13837","newTargetID":"13820","decay":"1s"}],"version":"20304","craftable":false,"blocksWalking":true,"sounds":[78]}

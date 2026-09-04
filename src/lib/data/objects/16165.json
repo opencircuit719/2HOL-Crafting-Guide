@@ -1,0 +1,1 @@
+{"id":"16165","name":"Prickly Lettuce","transitionsToward":[],"transitionsAway":[],"transitionsTimed":[{"targetID":"16165","newTargetID":"16676","decay":"5m"}],"version":"20318","craftable":true,"depth":0,"mapChance":0.1,"biomes":[{"id":"0","spawnChance":0.006194635445704023}]}

@@ -1,0 +1,1 @@
+{"id":"8703","name":"(outdated) Disconnected Pulley Drive Mechanism with Rubber Belt","transitionsToward":[],"transitionsAway":[{"targetID":"8703","newActorID":"2266","newTargetID":"2265","hand":true}],"transitionsTimed":[],"version":"20284","craftable":false,"sounds":[1207]}

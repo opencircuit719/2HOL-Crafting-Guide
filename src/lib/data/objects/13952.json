@@ -1,0 +1,1 @@
+{"id":"13952","name":"Ban Hammer  - modTool  - justUsed","transitionsToward":[],"transitionsAway":[],"transitionsTimed":[{"targetID":"13952","newTargetID":"13948","decay":"1s"}],"version":"20304","craftable":false,"minPickupAge":0,"speedMult":4,"blocksWalking":true}

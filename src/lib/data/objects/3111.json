@@ -1,0 +1,1 @@
+{"id":"3111","name":"Chopped Hardwood Tree - Hungry Work - big,log,wood2 +hungryWork10","transitionsToward":[],"transitionsAway":[{"targetID":"3111","newActorID":"344","newTargetID":"341","hand":true}],"transitionsTimed":[],"version":"20270","craftable":false,"blocksWalking":true,"sounds":[418]}

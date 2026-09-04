@@ -1,0 +1,1 @@
+{"id":"4599","name":"Bald Cypress Tree  - hive","transitionsToward":[],"transitionsAway":[{"actorID":"67","targetID":"4599","newActorID":"67","newTargetID":"7951","hand":true,"tool":true}],"transitionsTimed":[],"version":"20271","craftable":true,"depth":0,"mapChance":0.3,"biomes":[{"id":"1","spawnChance":0.054054054054054064}],"blocksWalking":true}

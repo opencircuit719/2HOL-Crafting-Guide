@@ -1,0 +1,1 @@
+{"id":"12875","name":"Copper Pipe  - TN  - NW  - justInstalled","transitionsToward":[],"transitionsAway":[],"transitionsTimed":[{"targetID":"12875","newTargetID":"12843","decay":"10s"}],"version":"20296","craftable":false,"sounds":[407]}

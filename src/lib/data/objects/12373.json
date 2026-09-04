@@ -1,0 +1,1 @@
+{"id":"12373","name":"(outdated) Wool Coat  - justremoved","transitionsToward":[],"transitionsAway":[],"transitionsTimed":[{"targetID":"12373","newTargetID":"12154","decay":"1s"}],"version":"20294","craftable":false,"clothing":"t","insulation":0.3605,"size":2,"minPickupAge":3,"sounds":[286]}

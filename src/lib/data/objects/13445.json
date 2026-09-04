@@ -1,0 +1,1 @@
+{"id":"13445","name":"Brewery  - empty  - closed","transitionsToward":[{"targetID":"13444","newTargetID":"13445","decay":"10s"}],"transitionsAway":[{"targetID":"13445","newTargetID":"13461","hand":true,"tool":true}],"transitionsTimed":[],"version":"20302","craftable":false,"blocksWalking":true,"sounds":[411],"techTree":[{"decay":"10s"},{"id":"13444","nodes":null}]}

@@ -1,0 +1,1 @@
+{"id":"14670","name":"Work Bench with Blank Paper","transitionsToward":[],"transitionsAway":[{"targetID":"14670","newActorID":"1619","newTargetID":"6700","hand":true},{"actorID":"1617","targetID":"14670","newActorID":"1617","newTargetID":"14669","hand":true,"tool":true}],"transitionsTimed":[],"version":"20311","craftable":false,"blocksWalking":true,"sounds":[588,591,594,595]}

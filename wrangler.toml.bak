@@ -1,0 +1,6 @@
+name = "2hol-crafting-guide"
+compatibility_date = "2025-01-01"
+
+[[kv_namespaces]]
+binding = "NEXT_INC_CACHE_KV"
+id = ""

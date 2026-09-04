@@ -1,0 +1,1 @@
+{"id":"7410","name":"Chopped Tree With Firewood  - big,log2,wood2","transitionsToward":[],"transitionsAway":[{"targetID":"7410","newActorID":"344","newTargetID":"7407","hand":true}],"transitionsTimed":[],"version":"20271","craftable":false,"blocksWalking":true,"sounds":[418]}

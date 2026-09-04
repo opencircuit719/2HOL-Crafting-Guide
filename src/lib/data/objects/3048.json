@@ -1,0 +1,1 @@
+{"id":"3048","name":"Bloody War Sword","transitionsToward":[],"transitionsAway":[],"transitionsTimed":[{"targetID":"3048","newTargetID":"6740","decay":"1m"}],"version":"224","craftable":false,"speedMult":0.25,"sounds":[1036]}

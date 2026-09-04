@@ -1,0 +1,1 @@
+{"id":"13036","name":"Chihuahua  - holdingWildBeet","transitionsToward":[],"transitionsAway":[{"targetID":"13036","newActorID":"8956","newTargetID":"8561","hand":true}],"transitionsTimed":[{"targetID":"13036","newTargetID":"13036","targetRemains":true,"decay":"3s","move":1}],"version":"20297","craftable":false,"speedMult":1.1,"moveType":1,"moveDistance":4}

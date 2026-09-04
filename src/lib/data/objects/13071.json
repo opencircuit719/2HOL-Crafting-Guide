@@ -1,0 +1,1 @@
+{"id":"13071","name":"Basket - justPickerUp","transitionsToward":[],"transitionsAway":[],"transitionsTimed":[{"targetID":"13071","newTargetID":"292","decay":"1s"}],"version":"20299","craftable":false,"size":2,"minPickupAge":3}

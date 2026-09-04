@@ -1,0 +1,1 @@
+{"id":"6755","name":"Pirate Hat on Water","transitionsToward":[],"transitionsAway":[{"targetID":"6755","newActorID":"6727","newTargetID":"6438","hand":true}],"transitionsTimed":[],"version":"20271","craftable":true,"depth":0,"clothing":"s","insulation":0,"mapChance":0.0001,"biomes":[{"id":"7","spawnChance":9.766578767457764e-05}],"blocksWalking":true}

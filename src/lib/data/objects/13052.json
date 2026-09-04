@@ -1,0 +1,1 @@
+{"id":"13052","name":"Wild Onion  - tutorial","transitionsToward":[{"targetID":"13051","newActorID":"13052","hand":true}],"transitionsAway":[],"transitionsTimed":[{"targetID":"13052","newTargetID":"808","decay":"2s"}],"version":"20298","craftable":false,"minPickupAge":3,"sounds":[50,143],"techTree":[{"id":"13051","nodes":null}]}

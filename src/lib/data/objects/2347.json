@@ -1,0 +1,1 @@
+{"id":"2347","name":"Wick Housing","transitionsToward":[],"transitionsAway":[{"actorID":"2347","targetID":"3076","newTargetID":"495","hand":true}],"transitionsTimed":[],"version":"179","craftable":false,"size":1,"minPickupAge":3,"sounds":[1557]}

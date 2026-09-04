@@ -1,0 +1,1 @@
+{"id":"13834","name":"(outdated) Mineral Mine  - 3  - justBuilt","transitionsToward":[],"transitionsAway":[],"transitionsTimed":[{"targetID":"13834","newTargetID":"13823","decay":"1s"}],"version":"20304","craftable":false,"blocksWalking":true,"sounds":[78]}

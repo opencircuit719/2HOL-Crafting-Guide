@@ -1,0 +1,1 @@
+{"id":"14499","name":"Lemonade Bottle -  just poured","transitionsToward":[],"transitionsAway":[],"transitionsTimed":[{"targetID":"14499","newTargetID":"10267","decay":"1s"}],"version":"20308","numUses":4,"craftable":false,"minPickupAge":3,"sounds":[287]}

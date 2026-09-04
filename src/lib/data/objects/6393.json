@@ -1,0 +1,1 @@
+{"id":"6393","name":"Skeleton Horse","transitionsToward":[],"transitionsAway":[{"targetID":"6393","newActorID":"6393","hand":true},{"actorID":"6393","newTargetID":"6393","hand":true}],"transitionsTimed":[],"version":"20271","craftable":false,"minPickupAge":3,"speedMult":2.5}

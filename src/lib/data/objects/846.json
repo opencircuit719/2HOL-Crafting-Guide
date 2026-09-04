@@ -1,0 +1,1 @@
+{"id":"846","name":"Broken Hand Cart","transitionsToward":[],"transitionsAway":[],"transitionsTimed":[{"targetID":"846","decay":"20m"}],"version":"79","craftable":false,"numSlots":3,"slotSize":2,"sounds":[198,496]}

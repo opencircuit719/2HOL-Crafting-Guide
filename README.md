@@ -6,7 +6,7 @@ A modern, community-enhanced crafting reference for [Two Hours One Life](https:/
 
 ## Live Demo
 
-**https://demo.2holguide.workers.dev**
+**https://2hol.guide**
 
 ## What is this?
 

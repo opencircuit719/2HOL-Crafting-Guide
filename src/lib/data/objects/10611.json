@@ -1,1 +1,1 @@
-{"id":"10611","name":"(outdated) Sheet Metal","transitionsToward":[],"transitionsAway":[],"transitionsTimed":[{"targetID":"10611","newTargetID":"4650","decay":"1s"}],"version":"20290","craftable":false,"size":3,"minPickupAge":3,"sounds":[407]}
+{"id":"10611","name":"(outdated) Sheet Metal","transitionsToward":[],"transitionsAway":[],"transitionsTimed":[{"targetID":"10611","newTargetID":"4650","decay":"1s"}],"craftable":false,"size":3,"minPickupAge":3,"sounds":[407]}

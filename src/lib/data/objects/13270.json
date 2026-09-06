@@ -1,1 +1,1 @@
-{"id":"13270","name":"Cattail","transitionsToward":[],"transitionsAway":[],"transitionsTimed":[{"targetID":"13270","decay":"2m"}],"version":"20300","craftable":false,"minPickupAge":3}
+{"id":"13270","name":"Cattail","transitionsToward":[],"transitionsAway":[],"transitionsTimed":[{"targetID":"13270","decay":"2m"}],"craftable":false,"minPickupAge":3}

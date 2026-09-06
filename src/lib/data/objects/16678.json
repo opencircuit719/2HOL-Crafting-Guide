@@ -1,1 +1,1 @@
-{"id":"16678","name":"Lettuce Seed","transitionsToward":[],"transitionsAway":[],"transitionsTimed":[{"targetID":"16678","decay":"5m"}],"version":"20319","craftable":false,"size":1,"minPickupAge":3,"sounds":[147]}
+{"id":"16678","name":"Lettuce Seed","transitionsToward":[],"transitionsAway":[],"transitionsTimed":[{"targetID":"16678","decay":"5m"}],"craftable":false,"size":1,"minPickupAge":3,"sounds":[147]}

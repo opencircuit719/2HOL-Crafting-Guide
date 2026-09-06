@@ -13,6 +13,10 @@ export const STATIONS: StationDef[] = [
   { id: "brick-oven", name: "Brick Oven", keywords: ["brick oven"] },
   { id: "blast-furnace", name: "Blast Furnace", keywords: ["blast furnace"] },
   { id: "anvil", name: "Anvil", keywords: [" on anvil", "anvil "] },
+  { id: "treadle-machine", name: "Treadle Machine", keywords: ["treadle machine", "treadle"] },
+  { id: "electric-arc-furnace", name: "Electric Arc Furnace", keywords: ["electric arc furnace", "arc furnace"] },
+  { id: "continuous-casting-machine", name: "Continuous Casting Machine", keywords: ["continuous casting machine", "casting machine"] },
+  { id: "forging-press", name: "Forging Press", keywords: ["forging press", "press"] },
 ];
 
 function matchStations(name: string | undefined): string[] {

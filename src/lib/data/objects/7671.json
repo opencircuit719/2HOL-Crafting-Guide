@@ -1,1 +1,1 @@
-{"id":"7671","name":"(outdated) Stack Piston Blanks","transitionsToward":[],"transitionsAway":[],"transitionsTimed":[{"targetID":"7671","newTargetID":"4031","decay":"1s"}],"version":"20273","numUses":5,"craftable":false,"sounds":[405]}
+{"id":"7671","name":"(outdated) Stack Piston Blanks","transitionsToward":[],"transitionsAway":[],"transitionsTimed":[{"targetID":"7671","newTargetID":"4031","decay":"1s"}],"numUses":5,"craftable":false,"sounds":[405]}

@@ -184,16 +184,18 @@ export async function loadObjectData(id: string): Promise<ObjectData | null> {
   if (cached) return cached;
 
   const db = await getDb();
-  if (!db) {
-    const data = await readObjectFile(id);
-    if (data) objectDataCache.set(id, data);
-    return data;
+  if (db) {
+    const result = await db.prepare("SELECT json FROM object_data WHERE id = ?").bind(id).first();
+    if (result) {
+      const data = JSON.parse((result as { json: string }).json) as ObjectData;
+      lruSet(objectDataCache, id, data, OBJECT_DATA_CACHE_MAX);
+      return data;
+    }
   }
 
-  const result = await db.prepare("SELECT json FROM object_data WHERE id = ?").bind(id).first();
-  if (!result) return null;
-  const data = JSON.parse((result as { json: string }).json) as ObjectData;
-  lruSet(objectDataCache, id, data, OBJECT_DATA_CACHE_MAX);
+  // Fallback to JSON files (local dev without D1 data, or D1 data not yet imported)
+  const data = await readObjectFile(id);
+  if (data) objectDataCache.set(id, data);
   return data;
 }
 

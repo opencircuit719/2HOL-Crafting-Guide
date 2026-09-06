@@ -1,1 +1,1 @@
-{"id":"11871","name":"Snake Plant  - snake","transitionsToward":[],"transitionsAway":[{"targetID":"11871","newTargetID":"11866","hand":true}],"transitionsTimed":[],"version":"20290","craftable":true,"depth":0,"mapChance":0.01,"biomes":[{"id":"8","spawnChance":0.02173913043478261}]}
+{"id":"11871","name":"Snake Plant  - snake","transitionsToward":[],"transitionsAway":[{"targetID":"11871","newTargetID":"11866","hand":true}],"transitionsTimed":[],"craftable":true,"depth":0,"mapChance":0.01,"biomes":[{"id":"8","spawnChance":0.02173913043478261}]}

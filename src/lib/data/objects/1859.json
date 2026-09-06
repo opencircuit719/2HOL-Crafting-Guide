@@ -1,1 +1,1 @@
-{"id":"1859","name":"(outdated) Stone Wall with Board Stack","transitionsToward":[],"transitionsAway":[{"targetID":"1859","newActorID":"470","newTargetID":"1860","hand":true}],"transitionsTimed":[],"version":"156","craftable":false,"insulation":0.9,"blocksWalking":true,"sounds":[78]}
+{"id":"1859","name":"(outdated) Stone Wall with Board Stack","transitionsToward":[],"transitionsAway":[{"targetID":"1859","newActorID":"470","newTargetID":"1860","hand":true}],"transitionsTimed":[],"craftable":false,"insulation":0.9,"blocksWalking":true,"sounds":[78]}

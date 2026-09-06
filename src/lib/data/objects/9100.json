@@ -1,1 +1,1 @@
-{"id":"9100","name":"Fern - small","transitionsToward":[],"transitionsAway":[],"transitionsTimed":[],"version":"20288","craftable":true,"depth":0,"mapChance":0.02,"biomes":[{"id":"6","spawnChance":0.006525285481239807}],"blocksWalking":true}
+{"id":"9100","name":"Fern - small","transitionsToward":[],"transitionsAway":[],"transitionsTimed":[],"craftable":true,"depth":0,"mapChance":0.02,"biomes":[{"id":"6","spawnChance":0.006525285481239807}],"blocksWalking":true}

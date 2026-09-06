@@ -11,7 +11,7 @@ DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "src", "lib", "data")
 OBJECTS_DIR = os.path.join(DATA_DIR, "objects")
 DB_NAME = "2hol-objects"
 BATCH_SIZE = 500
-DATA_BATCH_SIZE = 25  # Smaller batches for large JSON blobs
+DATA_BATCH_SIZE = 1   # One at a time to avoid SQLITE_TOOBIG on large objects
 
 
 def run_sql(sql: str) -> None:
@@ -22,7 +22,7 @@ def run_sql(sql: str) -> None:
         tmp_path = f.name
     try:
         result = subprocess.run(
-            ["npx", "wrangler", "d1", "execute", DB_NAME, "--file", tmp_path, "--json"],
+            ["npx", "wrangler", "d1", "execute", DB_NAME, "--remote", "--file", tmp_path, "--json"],
             capture_output=True,
             text=True,
             cwd=os.path.dirname(__file__),

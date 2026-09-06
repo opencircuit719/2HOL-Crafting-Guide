@@ -1,1 +1,1 @@
-{"id":"8704","name":"(outdated) Disconnected Pulley Drive Mechanism with Timing Belt","transitionsToward":[],"transitionsAway":[{"targetID":"8704","newActorID":"2364","newTargetID":"2265","hand":true}],"transitionsTimed":[],"version":"20284","craftable":false,"sounds":[1207]}
+{"id":"8704","name":"(outdated) Disconnected Pulley Drive Mechanism with Timing Belt","transitionsToward":[],"transitionsAway":[{"targetID":"8704","newActorID":"2364","newTargetID":"2265","hand":true}],"transitionsTimed":[],"craftable":false,"sounds":[1207]}

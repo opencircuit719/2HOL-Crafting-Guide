@@ -1,1 +1,1 @@
-{"id":"12021","name":"Mossy Tree Sapling","transitionsToward":[],"transitionsAway":[],"transitionsTimed":[{"targetID":"12021","newTargetID":"12007","decay":"2h"}],"version":"20290","craftable":false}
+{"id":"12021","name":"Mossy Tree Sapling","transitionsToward":[],"transitionsAway":[],"transitionsTimed":[{"targetID":"12021","newTargetID":"12007","decay":"2h"}],"craftable":false}

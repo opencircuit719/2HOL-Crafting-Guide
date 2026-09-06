@@ -1,1 +1,1 @@
-{"id":"805","name":"Wild Onion","transitionsToward":[],"transitionsAway":[{"targetID":"805","newActorID":"808","hand":true}],"transitionsTimed":[],"version":"75","craftable":true,"depth":0,"mapChance":1,"biomes":[{"id":"0","spawnChance":0.06194635445704023}]}
+{"id":"805","name":"Wild Onion","transitionsToward":[],"transitionsAway":[{"targetID":"805","newActorID":"808","hand":true}],"transitionsTimed":[],"craftable":true,"depth":0,"mapChance":1,"biomes":[{"id":"0","spawnChance":0.06183144747418539}]}

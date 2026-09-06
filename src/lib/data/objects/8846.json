@@ -1,1 +1,1 @@
-{"id":"8846","name":"Aloe Vera","transitionsToward":[],"transitionsAway":[],"transitionsTimed":[],"version":"20286","craftable":true,"depth":0,"mapChance":0.02,"biomes":[{"id":"5","spawnChance":0.0029082448742184103}],"blocksWalking":true}
+{"id":"8846","name":"Aloe Vera","transitionsToward":[],"transitionsAway":[],"transitionsTimed":[],"craftable":true,"depth":0,"mapChance":0.02,"biomes":[{"id":"5","spawnChance":0.002907399331298155}],"blocksWalking":true}

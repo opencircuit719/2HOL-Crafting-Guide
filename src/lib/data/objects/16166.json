@@ -1,1 +1,1 @@
-{"id":"16166","name":"Rock","transitionsToward":[],"transitionsAway":[],"transitionsTimed":[],"version":"20318","craftable":true,"depth":0,"mapChance":0.002,"biomes":[{"id":"9","spawnChance":0.001976284584980237}],"blocksWalking":true}
+{"id":"16166","name":"Rock","transitionsToward":[],"transitionsAway":[],"transitionsTimed":[],"craftable":true,"depth":0,"mapChance":0.002,"biomes":[{"id":"9","spawnChance":0.001976284584980237}],"blocksWalking":true}

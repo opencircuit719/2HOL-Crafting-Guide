@@ -1,1 +1,1 @@
-{"id":"16003","name":"Smooth Ground - floor","transitionsToward":[],"transitionsAway":[],"transitionsTimed":[{"targetID":"16003","decay":"3s"}],"version":"20317","craftable":false,"sounds":[294]}
+{"id":"16003","name":"Smooth Ground - floor","transitionsToward":[],"transitionsAway":[],"transitionsTimed":[{"targetID":"16003","decay":"3s"}],"craftable":false,"sounds":[294]}

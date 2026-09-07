@@ -59,7 +59,7 @@ export default function RecipeStepsSection({ recipe, transitions, nameMap, id }:
             <button
               key={sid}
               onClick={() => toggleStation(sid)}
-              className={`inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md text-xs font-medium border transition-colors ${
+              className={`inline-flex items-center justify-center gap-1.5 px-2.5 py-1.5 min-h-[44px] min-w-[44px] rounded-md text-xs font-medium border transition-colors ${
                 availableStations.has(sid)
                   ? "bg-emerald-50 text-emerald-700 border-emerald-200 dark:bg-emerald-900/30 dark:text-emerald-400 dark:border-emerald-800/50"
                   : "bg-gray-50 text-gray-600 border-gray-200 hover:bg-gray-100 dark:bg-zinc-800/50 dark:text-zinc-400 dark:border-zinc-700 dark:hover:bg-zinc-800"

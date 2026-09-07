@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo, useEffect } from "react";
+import { useState, useMemo, useEffect, useCallback } from "react";
 import { ObjectIndexEntry } from "@/lib/types";
 import { itemUrl } from "@/lib/slug";
 import SpriteImage from "@/components/SpriteImage";
@@ -37,7 +37,11 @@ export default function CategoryBar({ categories, objects, query = "" }: Categor
   const [onlyCraftable, setOnlyCraftable] = useState(false);
 
   const activeCategory = categories.find((c) => c.key === activeKey);
-  const objectMap = new Map(objects.map((o) => [o.id, o]));
+  const objectMap = useMemo(() => new Map(objects.map((o) => [o.id, o])), [objects]);
+
+  const handleCategoryClick = useCallback((key: string) => {
+    setActiveKey((prev) => (prev === key ? null : key));
+  }, []);
 
   const [displayObjects, setDisplayObjects] = useState<ObjectIndexEntry[]>(() =>
     objects.slice(0, 24)
@@ -108,8 +112,9 @@ export default function CategoryBar({ categories, objects, query = "" }: Categor
         {categories.map((cat) => (
           <button
             key={cat.key}
-            onClick={() => setActiveKey(activeKey === cat.key ? null : cat.key)}
-            className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-medium transition-colors border ${
+            type="button"
+            onClick={() => handleCategoryClick(cat.key)}
+            className={`inline-flex items-center justify-center gap-1.5 px-3 py-2 min-h-[44px] min-w-[44px] rounded-full text-sm font-medium transition-colors border touch-manipulation ${
               activeKey === cat.key
                 ? "bg-amber-50 text-amber-700 border-amber-300 dark:bg-amber-900/50 dark:text-amber-300 dark:border-amber-700/50"
                 : "bg-white text-gray-600 border-gray-200 hover:border-gray-400 hover:text-gray-900 dark:bg-zinc-900 dark:text-zinc-300 dark:border-zinc-800 dark:hover:border-zinc-600 dark:hover:text-zinc-100"

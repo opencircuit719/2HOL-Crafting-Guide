@@ -70,7 +70,7 @@ export default function ObjectSearch({ objects, compact = false, onQueryChange }
   }, []);
 
   return (
-    <div className={`relative ${compact ? "w-64 lg:w-80" : "w-full max-w-2xl mx-auto"}`}>
+    <div className={`relative ${compact ? "w-28 sm:w-48 lg:w-64" : "w-full max-w-2xl mx-auto"}`}>
       <div
         className={`relative flex items-center gap-2 rounded-lg border bg-white transition-colors dark:bg-zinc-900 ${
           focused ? "border-amber-400 ring-1 ring-amber-400/30" : "border-gray-300 dark:border-zinc-700"
@@ -108,7 +108,7 @@ export default function ObjectSearch({ objects, compact = false, onQueryChange }
       </div>
 
       {focused && results.length > 0 && (
-        <div className={`absolute z-50 mt-2 rounded-lg border border-gray-200 bg-white shadow-xl overflow-hidden dark:border-zinc-700 dark:bg-zinc-900 ${compact ? "w-72 lg:w-96 -left-2" : "w-full"}`}>
+        <div className={`absolute z-50 mt-2 rounded-lg border border-gray-200 bg-white shadow-xl overflow-hidden dark:border-zinc-700 dark:bg-zinc-900 ${compact ? "w-full" : "w-full"}`}>
           <ul className="max-h-80 overflow-auto py-1">
             {results.map((obj) => (
               <li key={obj.id}>
@@ -152,7 +152,7 @@ export default function ObjectSearch({ objects, compact = false, onQueryChange }
       )}
 
       {focused && query.length >= 2 && results.length === 0 && (
-        <div className={`absolute z-50 mt-2 rounded-lg border border-gray-200 bg-white shadow-xl px-4 py-3 text-sm text-gray-500 dark:border-zinc-700 dark:bg-zinc-900 dark:text-zinc-400 ${compact ? "w-72 lg:w-96 -left-2" : "w-full"}`}>
+        <div className={`absolute z-50 mt-2 rounded-lg border border-gray-200 bg-white shadow-xl px-4 py-3 text-sm text-gray-500 dark:border-zinc-700 dark:bg-zinc-900 dark:text-zinc-400 ${compact ? "w-full" : "w-full"}`}>
           No items found.
         </div>
       )}

@@ -14,7 +14,7 @@ export default function HeaderSearch({ objects }: HeaderSearchProps) {
     return <div className="flex-1" />;
   }
   return (
-    <div className="flex-1 flex justify-center">
+    <div className="flex-1 flex justify-center min-w-0">
       <ObjectSearch objects={objects} compact />
     </div>
   );

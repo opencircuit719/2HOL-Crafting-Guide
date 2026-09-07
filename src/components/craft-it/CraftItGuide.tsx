@@ -592,7 +592,7 @@ export default function CraftItGuide({
                 <button
                   key={sid}
                   onClick={() => toggleStation(sid)}
-                  className={`inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-medium border transition-colors ${
+                  className={`inline-flex items-center justify-center gap-1.5 px-2.5 py-1.5 min-h-[44px] min-w-[44px] rounded-full text-xs font-medium border transition-colors ${
                     isOn
                       ? "bg-amber-50 text-amber-700 border-amber-300 dark:bg-amber-900/40 dark:text-amber-300 dark:border-amber-700/50"
                       : "bg-white text-gray-500 border-gray-200 hover:border-gray-300 dark:bg-zinc-800 dark:text-zinc-400 dark:border-zinc-700 dark:hover:border-zinc-600"

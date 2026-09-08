@@ -38,7 +38,7 @@ export default async function RootLayout({
       <body className="min-h-full flex flex-col bg-white text-gray-900 dark:bg-zinc-950 dark:text-zinc-100">
         <ThemeProvider>
           <header className="border-b border-gray-200 bg-white/90 backdrop-blur-sm sticky top-0 z-50 dark:border-zinc-800 dark:bg-zinc-900/50">
-            <div className="max-w-7xl mx-auto px-4 py-3 flex items-center gap-2 sm:gap-4 overflow-hidden">
+            <div className="max-w-7xl mx-auto px-4 py-3 flex items-center gap-2 sm:gap-4">
               <a href="/" className="text-xl font-bold tracking-tight text-amber-600 hover:text-amber-700 transition-colors shrink-0 dark:text-amber-400 dark:hover:text-amber-300">
                 <span className="sm:hidden">2HOL</span>
                 <span className="hidden sm:inline">Two Hours One Life</span>

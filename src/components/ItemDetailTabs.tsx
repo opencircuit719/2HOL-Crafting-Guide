@@ -178,19 +178,27 @@ export default function ItemDetailTabs({
               No known uses for this item.
             </div>
           ) : (
-            Array.from(groupedUses.entries()).map(([resultId, group]) => (
-              <div key={resultId} className="rounded-lg border border-gray-200 dark:border-zinc-800 bg-white dark:bg-zinc-900/50 p-4 space-y-2">
-                <div className="flex items-center gap-2 mb-2">
-                  <ObjectLink id={resultId} nameMap={nameMap} size="sm" />
-                  <span className="text-xs text-gray-400 dark:text-zinc-500">({group.length} way{group.length > 1 ? "s" : ""})</span>
+            Array.from(groupedUses.entries()).map(([resultId, group], groupIndex) => {
+              const groupBgColors = [
+                "bg-white dark:bg-zinc-900",
+                "bg-gray-50 dark:bg-zinc-800",
+                "bg-stone-100 dark:bg-zinc-700",
+              ];
+              const bgClass = groupBgColors[groupIndex % groupBgColors.length];
+              return (
+                <div key={resultId} className={`rounded-lg border border-gray-200 dark:border-zinc-800 p-4 space-y-2 ${bgClass}`}>
+                  <div className="flex items-center gap-2 mb-2">
+                    <ObjectLink id={resultId} nameMap={nameMap} size="sm" />
+                    <span className="text-xs text-gray-400 dark:text-zinc-500">({group.length} way{group.length > 1 ? "s" : ""})</span>
+                  </div>
+                  <div className="space-y-2">
+                    {group.map((t, i) => (
+                      <TransitionRow key={i} transition={t} nameMap={nameMap} size="md" />
+                    ))}
+                  </div>
                 </div>
-                <div className="space-y-2">
-                  {group.map((t, i) => (
-                    <TransitionRow key={i} transition={t} nameMap={nameMap} size="md" />
-                  ))}
-                </div>
-              </div>
-            ))
+              );
+            })
           )}
         </div>
       )}

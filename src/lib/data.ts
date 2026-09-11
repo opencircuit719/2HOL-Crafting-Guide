@@ -134,21 +134,23 @@ export async function getObjectById(id: string): Promise<ObjectIndexEntry | unde
   if (cachedObjectsMap) return cachedObjectsMap.get(id);
 
   const db = await getDb();
-  if (!db) {
-    const objects = await getAllObjects();
-    return objects.find((o) => o.id === id);
+  if (db) {
+    const result = await db.prepare("SELECT id, name, difficulty, numSlots, craftable FROM object_index WHERE id = ?").bind(id).first();
+    if (result) {
+      const r = result as { id: string; name: string; difficulty: number | null; numSlots: number; craftable: number };
+      return {
+        id: r.id,
+        name: r.name,
+        difficulty: r.difficulty,
+        numSlots: r.numSlots,
+        craftable: r.craftable === 1,
+      };
+    }
   }
 
-  const result = await db.prepare("SELECT id, name, difficulty, numSlots, craftable FROM object_index WHERE id = ?").bind(id).first();
-  if (!result) return undefined;
-  const r = result as { id: string; name: string; difficulty: number | null; numSlots: number; craftable: number };
-  return {
-    id: r.id,
-    name: r.name,
-    difficulty: r.difficulty,
-    numSlots: r.numSlots,
-    craftable: r.craftable === 1,
-  };
+  // Fallback to JSON files (local dev with mock D1 that lacks object_index data)
+  const objects = await getAllObjects();
+  return objects.find((o) => o.id === id);
 }
 
 export async function searchObjects(query: string, limit = 50): Promise<ObjectIndexEntry[]> {
